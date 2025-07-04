@@ -38,7 +38,7 @@ function App() {
         </h1>
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
           Leading manufacturer of precision engineering components, stainless steel reservoirs, 
-          and automotive parts with state-of-the-art facilities in Alwar, India.
+          and automotive parts with state-of-the-art facilities in Rajot, India.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <button className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center">
@@ -55,7 +55,7 @@ function App() {
       <div className="relative">
         <div className="aspect-square bg-gray-200 rounded-2xl overflow-hidden">
           <img
-            src="./public/one.jpg" // <-- Replace this with your image path
+            src="/one.jpg" // <-- Replace this with your image path
             alt="Company Hero"
             className="w-full h-full object-cover"
           />
@@ -287,15 +287,15 @@ function App() {
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {[
-        "./public/IMG_1245.JPG",
-        "./public/IMG_1234.JPG",
-        "./public/IMG_1238.JPG",
-        "./public/IMG_1239.JPG",
-        "./public/IMG_1240.JPG",
-        "./public/IMG_1241.JPG",
-        "./public/IMG_1242.JPG",
-        "./public/IMG_1243.JPG",
-        "./public/IMG_1244.JPG",
+        "/IMG_1245.JPG",
+        "/IMG_1234.JPG",
+        "/IMG_1238.JPG",
+        "/IMG_1239.JPG",
+        "/IMG_1240.JPG",
+        "/IMG_1241.JPG",
+        "/IMG_1242.JPG",
+        "/IMG_1243.JPG",
+        "/IMG_1244.JPG",
       ].map((src, index) => (
         <div key={index} className="aspect-square bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
           <img
