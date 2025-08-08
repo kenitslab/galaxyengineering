@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Factory, Cog, Shield, Truck, Globe, ChevronDown, Phone, Mail, MapPin, Star } from 'lucide-react';
+import { ArrowRight, Factory, Cog, Shield, Globe, Phone, Mail, MapPin, Star } from 'lucide-react';
 
 function App() {
   return (
@@ -9,8 +9,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Factory className="h-8 w-8 text-black" />
-              <span className="ml-2 text-2xl font-bold text-black">GALAXY</span>
+              <img 
+                src="/logo.png" 
+                alt="Galaxy Logo" 
+                className="h-10 w-auto"
+              />
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 hover:text-black transition-colors">Home</a>
@@ -125,19 +128,24 @@ function App() {
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-black mb-2">Components</h4>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Hydraulic Components</li>
-                    <li>• Precision Aluminum</li>
-                    <li>• Magnesium Alloy</li>
-                    <li>• Brass Components</li>
+                    <li>• Precision Machining</li>
+                    <li>• Assembly</li>
+                    <li>• Sub assembly</li>
+                    <li>• Multi axis machine</li>
+                    <li>• Heat Treatment</li>
+                    <li>• Coating</li>
+                    <li>• Painting</li>
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-semibold text-black mb-2">Industries</h4>
                   <ul className="text-sm text-gray-600 space-y-1">
-                    <li>• Automotive</li>
-                    <li>• Railways</li>
-                    <li>• Tractors</li>
-                    <li>• Generators</li>
+                    <li>• Automobile</li>
+                    <li>• Aerospace</li>
+                    <li>• Energy</li>
+                    <li>• Oil & Gas</li>
+                    <li>• Hydraulic</li>
+                    <li>• General Engineering</li>
                   </ul>
                 </div>
               </div>
@@ -289,8 +297,8 @@ function App() {
       {[
         "/IMG_1245.JPG",
         "/IMG_1234.JPG",
-        "/IMG_1238.JPG",
-        "/IMG_1239.JPG",
+        "/IMG_1178.JPG",
+        "/IMG_1477.JPG",
         "/IMG_1240.JPG",
         "/IMG_1241.JPG",
         "/IMG_1242.JPG",
@@ -333,7 +341,7 @@ function App() {
                 <Mail className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-gray-300">info@galaxy.com</p>
+              <p className="text-gray-300">info@galaxyengineer.com</p>
             </div>
             
             <div className="text-center">
@@ -341,7 +349,9 @@ function App() {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Location</h3>
-              <p className="text-gray-300">Rajkot, India</p>
+              <p className="text-gray-300">Street No-2 Gokulnagar,<br/>
+Gokuldham main road,<br/> 
+Near vijay hotel, Rajkot 360004.</p>
             </div>
           </div>
         </div>
@@ -353,8 +363,11 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Factory className="h-8 w-8 text-white" />
-                <span className="ml-2 text-2xl font-bold">GALAXY</span>
+                <img 
+                  src="https://i.imgur.com/your-logo-url.png" 
+                  alt="Galaxy Logo" 
+                  className="h-8 w-auto"
+                />
               </div>
               <p className="text-gray-400">
                 Leading precision manufacturing company specializing in automotive, aerospace, and industrial components.
