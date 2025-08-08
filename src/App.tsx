@@ -399,13 +399,13 @@ Near vijay hotel, Rajkot 360004.</p>
               <ul className="space-y-2 text-gray-400">
                 <li>Rajkot, India</li>
                 <li>+91 7567071724</li>
-                <li>info@galaxy.com</li>
+                <li>info@galaxyengineer.com</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Galaxy Manufacturing. All rights reserved.</p>
+            <p>&copy; 2025 Galaxy Engineer. All rights reserved.</p>
           </div>
         </div>
       </footer>
