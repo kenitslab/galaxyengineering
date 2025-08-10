@@ -5,27 +5,28 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <img 
-                src="/logo.png" 
-                alt="Galaxy Logo" 
-                className="h-10 w-auto"
-              />
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-black transition-colors">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-black transition-colors">About</a>
-              <a href="#facilities" className="text-gray-700 hover:text-black transition-colors">Facilities</a>
-              <a href="#segments" className="text-gray-700 hover:text-black transition-colors">Segments</a>
-              <a href="#gallery" className="text-gray-700 hover:text-black transition-colors">Gallery</a>
-              <a href="#contact" className="text-gray-700 hover:text-black transition-colors">Contact</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+<nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-between items-center h-20"> {/* Slightly taller navbar */}
+      <div className="flex items-center">
+        <img 
+          src="/logo.png" 
+          alt="Galaxy Logo" 
+          className="h-14 w-[100px]" // Moderately larger
+        />
+      </div>
+      <div className="hidden md:flex items-center space-x-8">
+        <a href="#home" className="text-gray-700 hover:text-black transition-colors">Home</a>
+        <a href="#about" className="text-gray-700 hover:text-black transition-colors">About</a>
+        <a href="#facilities" className="text-gray-700 hover:text-black transition-colors">Facilities</a>
+        <a href="#segments" className="text-gray-700 hover:text-black transition-colors">Segments</a>
+        <a href="#gallery" className="text-gray-700 hover:text-black transition-colors">Gallery</a>
+        <a href="#contact" className="text-gray-700 hover:text-black transition-colors">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
 
 {/* Hero Section */}
 <section id="home" className="pt-16 bg-gradient-to-br from-gray-50 to-white">
@@ -41,7 +42,7 @@ function App() {
         </h1>
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
           Leading manufacturer of precision engineering components, stainless steel reservoirs, 
-          and automotive parts with state-of-the-art facilities in Rajot, India.
+          and automotive parts with state-of-the-art facilities in Rajkot, India.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <button className="bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center">
