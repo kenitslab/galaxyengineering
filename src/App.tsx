@@ -300,7 +300,7 @@ function App() {
         "/IMG_1234.JPG",
         "/IMG_1178.JPG",
         "/IMG_1477.JPG",
-        "/IMG_1240.JPG",
+        "/IMG_1567.JPG",
         "/IMG_1241.JPG",
         "/IMG_1242.JPG",
         "/IMG_1243.JPG",
